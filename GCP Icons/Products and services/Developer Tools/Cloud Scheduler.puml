@@ -1,0 +1,21 @@
+sprite $CloudScheduler [64x70/16z] {
+hPTP6YGX28CLbV3c_KyxQs-nWkLyFNdffVm30hNDbn2OHug0_3VE320NHXmQG2wCXt2FFwJ_3J_48_I_PSzxl7M0Ty1I0-nm10c90QyqXbaG1WelaKeONF3O
+QZLOSSIDi1WOuGcK6ynfXpZl0U-lziHTHSFEOCw7WOcE3wlbZseRa0Rp8VErRUYra6nS37oIuaEZbekgBmOfxhL86QWB6Ju8ob90TbPrZcdscSr75PBmhP3w
+KimX4m17PvvByivKXVSYU3R6vlg3edYsjYjFcy_um5e2h3oAvZc36a-juMtFHr_-Ap9ypaVb1C3ykEN7qWBcxPQFodycwUTyvnPIztt7yvgNdTv-paUb0k2J
+x-UyAxwTyCOZUCkFOBMSxnANl9_jtn2hBET7llUy_dd_gmiStF_ooGVX3GHIZfRCVruuNj8rFqJXPFhGFAXmIasU_rWEUuQFPM_w-cU8RVOr1C-djyPjkOFW
+SlT3_TixYTUokClxZzW2JLU5u44b4ls7l7szTRrzrmv15qyU0DJZWxKnV8nMYy0ZVtmfcIeYVS_WHaaryVmZ3S9DqWhN1k6DCsyyrDch3LkOrLAgjRuUcb9n
+B2ZSubmw_5S6-9AFVzFclHQRilNR-KltuhmkYPzCmoMGwm9WtWdfia9nKcrMOHx8RVv7_GG
+}
+
+
+!definelong GCP_CloudScheduler(alias,name,container='rectangle',stereo='CloudScheduler')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudScheduler{scale=0.3}></color>
+]
+!enddefinelong

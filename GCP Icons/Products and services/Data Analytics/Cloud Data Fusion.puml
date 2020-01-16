@@ -1,0 +1,21 @@
+sprite $CloudDataFusion [129x117/16z] {
+xPi7hkKm30ELOeceklzj5qRz_OakuRQv00TCZ-Ly2IQ8d0Qpv1Gdvl4S9x04IVzlCN4-eCv7g0MWpWVa0lT8lhO2nrg2Bq1RGK1i0B40TY0NkCNv07y6gYv5
+G5j1G6m0iK10Qs3OYKiFG6VF0J0puBAt77UC6M1Om3voZmZ4X43D8EW2nWNCwGgmLk02QN3YE_mwFhPhPgy43lPIn7VSze6h963WAeXI_hn0i0MuhHK0cOzp
+jG180Nj603i428FpKG4l5C0A-DqvFWYKAuX1WP-lME855Oi4Mb40H04p0kKAG0hSX42b0jG5pjP1wQvvecZWX83lU465H02LCv0NiBSKlnKX4i2RV8r0x13W
+pm881Rh1BHM8J4W5e1U0M01_bS1_0NkBGE2_m1YvKE1-GqCDNoZW8uSWyvGAnCh7SHiGo8wmWSXEw0H6NahFzWttGGiOyLfEGtqOY0IOJpCURWrB8f1l4GY4
+MY3VyxW0yvFgC9wZ852ku3IUYyl_-HFDZSSBPs2zWijORg80tc0-F-WLitOULkMuV73v4a-HSW6nGNbyIZ39eIsW8osW4z82Ekhy3BL0glFJTv-1sWhKWqmk
+7-NI3xDfA_XT1XfLbsBeXrgr1YuVRDQFTcihq8_tQok8Ft6BXoqkG7eGKh_HILf1gFUQYRVRHQRK87AIKCRp3dpwBm
+}
+
+
+!definelong GCP_CloudDataFusion(alias,name,container='rectangle',stereo='CloudDataFusion')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudDataFusion{scale=0.3}></color>
+]
+!enddefinelong

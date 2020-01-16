@@ -1,0 +1,21 @@
+sprite $CloudTasks [160x140/16z] {
+xTX7cjmm50DXAX5mVFS_hOC6AxET5ARBeNRS_H_OKVNBIR8ko9BgwffyPLSB5HuKA5-VHEKbTUhb9jKbTISeK4O31VVvrh2tczOwLx_P9_Pybh1lZeHzSoHX
+RpSrwdn9sFcIi6-EHBtT965lDs7dIyBEbthzRgjVDUhj9WbxkuaxNsBFPxNwzPgV4FPsax2tcx3p9M7dIzZvaWxmSC0EzzbeeFpKiFCbOUTBC-kBTmmxNnAM
+b-W-dU1jwzwMu_hmsBsd7EMzdgEE3-YVDhUzESUfxIqvjfVMW78CTyln-82woBUTzBb_XqVncUxJGnx7vnepoQUHTxbFnttZMsI6-LmfYURJmEFunW5Dyeq3
+2kKR1pJ9DmB5z6dWiNoEpr1V1XJLbm7DzIaygizqdqfedyjiNuFxz5Vx_llyL-_ttrTY-_3VRoMoZ__xYl_xjB0-qVyV9QYlu_-Vyvzl9BQF_tojwBv6yy6V
+Zx-jRsFvQaWaNps8xkiSNzN10PTNyRsfnr5yTTYtpdkBmvtt0lByKa3AKTxhEHxY9IEgD2OiBz5z1USLbvVeFYulqNqhW4STy4snWSNsrIz6zmdBIzmtHyBE
+bxYyHFS9oqjqNyVo4jrNS5u9oqjqNyVo4k2Bbm0ijgzEHFS9oqlODqUQiVCbtzkxOWFhTCBo4jtNiRmaB2_1Flh6kBmaxkKcC2_fARhF
+}
+
+
+!definelong GCP_CloudTasks(alias,name,container='rectangle',stereo='CloudTasks')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudTasks{scale=0.3}></color>
+]
+!enddefinelong

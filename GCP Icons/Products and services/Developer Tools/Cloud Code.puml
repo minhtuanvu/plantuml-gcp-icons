@@ -1,0 +1,12 @@
+
+!definelong GCP_CloudCode(alias,name,container='rectangle',stereo='CloudCode')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudCode{scale=0.3}></color>
+]
+!enddefinelong

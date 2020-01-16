@@ -1,0 +1,21 @@
+sprite $CloudFirestore [102x92/16z] {
+lPa7qZCX34F16Aolt_-qVo-PRH9Bnky0UICC9bw-JWdC4L_p353MFO5Rp4aCID0WmnB8qE0-8qEYXobO8UGe2M426HfaMB1EZcK8LKa8K_0CWbZm7EXw9OJ1
+io1H4ZHu7YD3SXwc84E334j08dn08kv76LPAgHqATwFqMdvJFUvfm0YlvO76FJuT9LhPOWE4oIYZbIEC52Xc9DtA2Qn0yZ_ywBLSSkK9BKfuuRH1mh3IMzdI
+mlVXe6WWM_pXt4WMsqIXbiSpFqoqG8W2EpqUqJHBS0diwgZxWuM52S7YfB61Xi4L1oruR9eqiu16WMtBuNMxUj681ImAV1nLVACEPnQ3p6Ya8PzNHdVOjb5s
+gAYMNbcZNBTuEQE5P0cj7EVOK2oy70nU8BQJsy5lxhqLbmIpsD7wnCxDeX2DdTJQ9omXTikZbjchQfde_BLVRGmIXOMno-qQJR0eToKvUk7COjgzxy6R3ud2
+mZJ7CVvGgMvKmcUzythutAY46ORftVBsJDadkkKB6LzaIx7G1vWR5hvaRrjBtB9uJ0wMyvRQvwTNcxHOlpMAonRv7Zv4jxG0vsNf4ybmI6HykJgtH8Ba1ocI
+Bq-nV2L8Vf9ZYMT94iAyfBnPPBto98H9UXTBqBoaMBv44gAiRe2KD_7izttEWYH1yp9dyQKeEaj9T7pHaSzt
+}
+
+
+!definelong GCP_CloudFirestore(alias,name,container='rectangle',stereo='CloudFirestore')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudFirestore{scale=0.3}></color>
+]
+!enddefinelong

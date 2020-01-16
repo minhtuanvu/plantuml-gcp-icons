@@ -1,0 +1,22 @@
+sprite $CloudDataCatalog [80x80/16z] {
+xPTdekCm28HD7-N-1zvrYfrNGERrzkLtC30ZX9Olpn_4EeTfEGWxnXmuBuSGZ6D03cM7SHGSo91y7CTfNkqew5TCCJh4B44TFRIlRR_YMemQfxTChqwGO_G9
+BiNeerLwRvcWZPTXr3-uVKd8nqjnghpI1zezk7r9TBm6evuO20zq9gjDxmgsAg8tn83nfGQDmZDpCN1bimCPhYIJjHOZP4LZjvV1PCLH7cD6uIhoktXnhJnA
+IQnoFSTzFCd_ORKOQuT9LGrxF8MhgYG9IdLmOLjVD_UJRwtNfA1S3Dxxwa9hj4q6IHoXrzucwP7jVXPYmxqtDFECLUbjXCVOqQHBQn9HnKl8uWLj-qfUxrCy
+gNSCJkBL2KfQbgJnu4IQn5FAvf7aJOB7W1cUD49zX2CTWrxFgSqcknN9a4_1D45SNBoGnDvKlPvfBwQqrPVMlPHMJoIhhWx8qtcXHRpzdEiRnTDgslVZ1LK3
+i1zFqjKbruFI34vEami4nazUStvEWWs9LyeR130cmm2sBM70c2GIhqot8KIiGQy5GqbZH3nR31rTXupM_fx-_vpo4MR5DldKfU8HuPolsC79EfbycbQA2QkD
+RHmo--Z9gREWEjE5h5fmxpM36wq70yKRRCzliU7hMxrMTp7UCa5PCiX67wCtVG23bm9z0p4QakH3_gqaaQM6lEsL6iQRYT6Nn9Ovv9rgtopWPVuVGnmf-rsd
+j1o6vYpVWJ_-0G
+}
+
+
+!definelong GCP_CloudDataCatalog(alias,name,container='rectangle',stereo='CloudDataCatalog')
+skinparam container<<stereo>> {
+  BackgroundColor White
+  BorderColor White
+  Shadowing false
+}
+container alias <<stereo>> [
+<b>name
+<color:GCP_COLOR><$CloudDataCatalog{scale=0.3}></color>
+]
+!enddefinelong
